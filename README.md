@@ -1,4 +1,4 @@
-# Blog/portfolio siteTitle
+# Blog/portfolio site
 
 I've been wanting to self publish for a while now. This site will use the base gatsby starter blog project with my own customizations.
 
