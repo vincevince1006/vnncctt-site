@@ -11,3 +11,5 @@ I've been wanting to self publish for a while now. This site will use the base g
 - Portfolio page
 
 - Resume page
+
+- Google analytics
