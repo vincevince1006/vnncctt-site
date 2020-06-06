@@ -1,0 +1,36 @@
+.base-container {
+  @media screen and (min-width: 1020px + 1) {
+    width: 45em;
+  }
+  @media screen and (min-width: 850px) and (max-width: 1020px) {
+    width: 38em;
+  }
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header__inner {
+  @extend .base-container;
+}
+
+/* body container for pages */
+.main__inner {
+  @extend .base-container;
+}
+
+.main__inner-articleList {
+  display: grid;
+  @media screen and (min-width: $vp-med) {
+    grid-template-columns: 20% auto;
+  }
+  grid-column-gap: 20px;
+  & article {
+    margin-bottom: 2.25em;
+  }
+}
+
+.footer__inner {
+  @extend .base-container;
+  margin-top: 1em;
+  padding: 1em 0 1em 0;
+}

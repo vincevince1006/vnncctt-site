@@ -1,6 +1,7 @@
 ---
-title: My Second Post!
+title: How I Structure My SCSS Projects
 date: "2015-05-06T23:46:37.121Z"
+description: Documenting what's worked for me when I start a new project that uses SCSS. From handy mixins to useful variables, I'm hoping this helps other devs new to the language.
 ---
 
 Wow! I love blogging so much already.

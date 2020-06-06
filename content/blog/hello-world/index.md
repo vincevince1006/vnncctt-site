@@ -1,7 +1,7 @@
 ---
-title: Hello World
+title: Finally Did It!
 date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+description: "I've been meaning to start a blog to document my progress (and often times, frustrations) working as a front-end developer. Now that I have a ton of time on my hands (thanks COVID-19) here I go!"
 ---
 
 This is my first post on my new fake blog! How exciting!

@@ -1,7 +1,7 @@
 ---
-title: BackstopJS - Up and Running
+title: Creating a Smooth Menu Toggle in React
 date: "2015-05-28T22:40:32.169Z"
-description: I was asked to automate visual regression testing on a large-scale web application. BackstopJS helped the team reduce the amount of time spent on this step in their testing cycle and integrated nicely into their dev environment.
+description: The whole hamburger menu icon transitioning to an "X" is pretty popular out there right now so I made a React component (and got a headache configuring the CSS for android devices &#129301;).
 ---
 
 Far far away, behind the word mountains, far from the countries Vokalia and
