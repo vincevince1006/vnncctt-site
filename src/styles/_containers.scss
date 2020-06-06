@@ -9,19 +9,9 @@
   margin: 0 auto;
 }
 
-.header__inner {
-  display: flex;
-  flex-flow: column;
-  @media screen and (min-width: 660px) {
-    justify-content: space-between;
-    flex-flow: row;
-  }
-  & small { color: gray; }
-  @extend .base-container;
-}
-
 /* body container for pages */
 .main__inner {
+  padding-top: 2.5em;
   @extend .base-container;
 }
 

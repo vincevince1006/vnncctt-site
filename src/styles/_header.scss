@@ -1,0 +1,34 @@
+header {
+  background: $foggy;
+  &:before {
+    background: inherit;
+    content: '';
+    display: block;
+    @media screen and (min-width: 660px) { height: 12.25%; }
+    height: 17%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    -webkit-backface-visibility: hidden;
+  }
+  &:before {
+    top: 0;
+    @media screen and (min-width: 660px) {
+      transform: skew(0deg, -1.65deg);
+    }
+    transform: skew(0deg, -2deg);
+  }
+}
+
+.header__inner {
+  display: flex;
+  flex-flow: column;
+  padding-top: 1.15em;
+  @media screen and (min-width: 660px) {
+    justify-content: space-between;
+    flex-flow: row;
+  }
+  & small { color: #33415c; }
+  @extend .base-container;
+}
