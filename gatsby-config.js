@@ -8,6 +8,20 @@ module.exports = {
     social: {
       twitter: 'vnncctt'
     },
+    menuLinks: [
+      {
+        name: 'home',
+        link: '/'
+      },
+      {
+        name: 'portfolio',
+        link: '/works'
+      },
+      {
+        name: 'resume',
+        link: '/resume'
+      }
+    ],
   },
   plugins: [
     {

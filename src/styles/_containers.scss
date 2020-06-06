@@ -10,6 +10,13 @@
 }
 
 .header__inner {
+  display: flex;
+  flex-flow: column;
+  @media screen and (min-width: 660px) {
+    justify-content: space-between;
+    flex-flow: row;
+  }
+  & small { color: gray; }
   @extend .base-container;
 }
 

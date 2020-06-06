@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import Nav from "../components/nav"
+
 const Layout = ({ title, children }) => {
     const header = (
       <h1>
@@ -18,7 +20,13 @@ const Layout = ({ title, children }) => {
   return (
     <div>
       <header>
-        <div className="header__inner">{header}</div>
+        <div className="header__inner">
+          <div>
+          {header}
+          <small>User Interface Designer</small>
+          </div>
+          <Nav />
+        </div>
       </header>
       <main>
         <div className="main__inner">{children}</div>
