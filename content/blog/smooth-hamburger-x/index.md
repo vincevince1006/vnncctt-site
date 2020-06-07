@@ -1,7 +1,7 @@
 ---
-title: Creating a Smooth Menu Toggle in React
+title: Creating a Smooth Menu Toggle
 date: "2015-05-28T22:40:32.169Z"
-description: The whole hamburger menu icon transitioning to an "X" is pretty popular out there right now so I made a React component (and got a headache configuring the CSS for android devices &#129301;).
+description: The whole hamburger menu icon transitioning to an "X" is pretty popular out there right now so I documented a feature that's smooth and easy to implement (and got a headache configuring the CSS for android devices &#129301;).
 ---
 
 Far far away, behind the word mountains, far from the countries Vokalia and

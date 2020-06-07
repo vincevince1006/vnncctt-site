@@ -12,7 +12,10 @@ const ResumeIndex = ({ data }) => {
     <Layout title={siteTitle}>
     <SEO title="Portfolio" />
     <h2>Portfolio</h2>
-    <p>test</p>
+    <p>A small sampling of projects I've worked on.</p>
+    <h3>govinfo.gov</h3>
+    <h3>HCPSS StoryStrong</h3>
+    <h3>HCPSS Staff Directory</h3>
     </Layout>
   )
 }

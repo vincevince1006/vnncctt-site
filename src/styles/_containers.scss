@@ -18,9 +18,9 @@
 .main__inner-articleList {
   display: grid;
   @media screen and (min-width: $vp-med) {
-    grid-template-columns: 20% auto;
+    grid-template-columns: 30% auto;
   }
-  grid-column-gap: 20px;
+  grid-column-gap: 40px;
   & article {
     margin-bottom: 2.25em;
   }
