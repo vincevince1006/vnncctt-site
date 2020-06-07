@@ -13,3 +13,5 @@ I've been wanting to self publish for a while now. This site will use the base g
 - Resume page
 
 - Google analytics
+
+- Social links in bio box
