@@ -1,17 +1,19 @@
 $brunswick-green: #283618;
-$cornsilk: #fefae0;
-$vamp: #22223b;
-$foggy: #ddbea9;
+$vampire: #22223b;
+$clay: #ddbea9;
+$manilla: #fff1e6;
+$dark-manilla: adjust-color($manilla, $lightness: -2%);
+$rusty: #bc6c25;
 
-$html: #fff1e6;
+$html: $manilla;
 $white: white;
-$bg: $cornsilk;
-$prim: $brunswick-green;
+$prim: $clay;
+$sec: $brunswick-green;
 
-$gray: #F7F7F7;
+$gray: #6c757d;
 
-$text: $vamp;
-$heading: $vamp;
+$text: $vampire;
+$heading: $vampire;
 $link: #bc6c25;
 
 $vp-sm: 425px;

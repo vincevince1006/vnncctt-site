@@ -19,7 +19,7 @@ const Bio = () => {
   `)
 
   const { author, social } = data.site.siteMetadata
-  
+
   return (
     <aside>
       <p>
