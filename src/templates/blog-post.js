@@ -34,9 +34,9 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             {post.frontmatter.date}
           </p>
         <section dangerouslySetInnerHTML={createMarkup()} />
-        <div class="bioBg">
+        <aside class="bioBg--post">
           <Bio />
-        </div>
+        </aside>
       </article>
 
       <nav>

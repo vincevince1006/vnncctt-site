@@ -13,7 +13,9 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="Home" />
       <section className="main__inner-articleList">
-      <Bio />
+      <aside className="bioBg--index">
+        <Bio />
+      </aside>
       <div className="main__inner-articleList--articles">
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
