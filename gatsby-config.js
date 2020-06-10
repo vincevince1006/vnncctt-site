@@ -73,8 +73,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Vincent Dubay - UI Designer`,
+        short_name: `vnncctt`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
