@@ -16,6 +16,9 @@
 }
 
 .main__inner-articleList {
+  & h2 {
+    margin-bottom: 0.25em;
+  }
   display: grid;
   @media screen and (min-width: $vp-med) {
     grid-template-columns: 30% auto;

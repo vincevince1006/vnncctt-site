@@ -17,6 +17,8 @@ const BlogIndex = ({ data, location }) => {
         <Bio />
       </aside>
       <div className="main__inner-articleList--articles">
+      <h2>Posts</h2>
+      <small>Musings, tutorials, and other nonsense</small>
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
