@@ -10,14 +10,17 @@ module.exports = {
     },
     menuLinks: [
       {
+        key: 1,
         name: 'home',
         link: '/'
       },
       {
+        key: 2,
         name: 'portfolio',
         link: '/works'
       },
       {
+        key: 3,
         name: 'resume',
         link: '/resume'
       }
@@ -86,8 +89,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-            `roboto\:300,500,700`,
-            `Montserrat\:300,500`
+            `roboto\:400,700`,
+            `open sans\:300,400,500`
         ],
         display: 'swap'
       }
