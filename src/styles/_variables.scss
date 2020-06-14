@@ -5,18 +5,22 @@ $vampire: #22223b;
 $clay: #ddbea9;
 $manilla: #fff8f3;
 $dark-manilla: adjust-color($manilla, $lightness: -3.25%);
+$daywalker: adjust-color(gray, $lightness: 2.5%);
 $rusty: #bc6c25;
 
 $html: $manilla;
 $white: white;
 $prim: $clay;
 
+$stormcloud: adjust-color(#394763, $lightness: 20%);
 $gray: #6c757d;
+$light-gray: adjust-color($gray, $lightness: 45%);
 
 $text: $vampire;
 $heading: $vampire;
 $link: #bc6c25;
 
 $vp-sm: 425px;
-$vp-med: 768px;
+$vp-med: 660px;
+$vp-tablet: 768px;
 $vp-lg: 1200px;

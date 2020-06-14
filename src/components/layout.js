@@ -33,7 +33,7 @@ const Layout = ({ title, children }) => {
       </main>
       <footer>
         <div className="footer__inner">
-        <p>© {new Date().getFullYear()}</p>
+        <p>© {new Date().getFullYear()} | made in the 51st state</p>
         </div>
       </footer>
     </div>

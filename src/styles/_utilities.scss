@@ -1,0 +1,7 @@
+@mixin box-annouce($left-right-padding, $left-right-margin: auto, $width: auto, $box-shadow: $gray, $bg: $dark-manilla) {
+  background: $bg;
+  padding: 0.5em $left-right-padding;
+  width: $width;
+  box-shadow: 5px 5px $box-shadow;
+  margin: 1.5em $left-right-margin;
+}

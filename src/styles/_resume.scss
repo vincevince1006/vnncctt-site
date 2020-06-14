@@ -1,0 +1,25 @@
+.resumeBody {
+  @media screen and (min-width: $vp-tablet) { margin-right: 4.8em; }
+  h3, h4 { margin-bottom: 0; }
+  h3 {
+    border-bottom: 1.25px solid $light-gray;
+    padding-bottom: 0.35em;
+  }
+  small {
+    color: $stormcloud;
+  }
+  ul {
+  list-style: none;
+  padding-left: 1em;
+  transition: 0.5s color ease;
+  color: $daywalker;
+  &:hover {
+    color: $vampire;
+  }
+    li {
+      font-size: 0.889em;
+      line-height: 1.38em;
+      padding: 0.5em 0;
+    }
+  }
+}

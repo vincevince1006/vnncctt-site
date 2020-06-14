@@ -4,7 +4,7 @@ header {
     background: inherit;
     content: '';
     display: block;
-    @media screen and (min-width: 660px) and (max-width: 1800px) { height: 105px; }
+    @media screen and (min-width: $vp-med - 1) and (max-width: 1800px) { height: 105px; }
     @media screen and (min-width: 1801px) { height: 110px; }
     height: 140px;
     left: 0;
@@ -24,7 +24,7 @@ header {
   display: flex;
   flex-flow: column;
   padding-top: 1.15em;
-  @media screen and (min-width: 660px) {
+  @media screen and (min-width: $vp-med) {
     justify-content: space-between;
     flex-flow: row;
   }

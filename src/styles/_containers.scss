@@ -12,7 +12,7 @@
 /* body container for pages */
 .main__inner {
   padding-top: 2.5em;
-  @media screen and (max-width: 659px) { padding-top: 1.25em; }
+  @media screen and (max-width: $vp-med) { padding-top: 1.25em; }
   @extend .base-container;
 }
 
@@ -21,14 +21,14 @@
     margin-bottom: 0.25em;
   }
   display: grid;
-  @media screen and (min-width: $vp-med) {
+  @media screen and (min-width: $vp-tablet) {
     grid-template-columns: 30% auto;
   }
   grid-column-gap: 40px;
   & article {
     & h3 { margin: 0.75em 0; }
     &:first-of-type {
-      @media screen and (min-width: $vp-med) {
+      @media screen and (min-width: $vp-tablet) {
         margin-top: 1.5em;
       }
     }
@@ -41,6 +41,7 @@
 
 .footer__inner {
   @extend .base-container;
+  color: $daywalker;
   margin-top: 1em;
   padding: 1em 0 1em 0;
 }
