@@ -1,15 +1,13 @@
 .bioBg--post {
   background: $dark-manilla;
-  padding: 0.5em;
+  padding: 0.5em 1.25em;
   box-shadow: 5px 5px $gray;
   margin: 1.5em auto;
 }
 
 .bioBg--index {
-  background: $dark-manilla;
   padding: 0.5em;
-  box-shadow: 5px 5px $gray;
-  margin: 1.25em auto;
+  margin: 1em auto;
   @media screen and (min-width: $vp-med) {
     height: 125px;
   }

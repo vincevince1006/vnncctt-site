@@ -17,8 +17,6 @@ const BlogIndex = ({ data, location }) => {
         <Bio />
       </aside>
       <div className="main__inner-articleList--articles">
-      <h2>Posts</h2>
-      <small>Musings, tutorials, and other nonsense</small>
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
@@ -28,7 +26,7 @@ const BlogIndex = ({ data, location }) => {
                   {title}
                 </Link>
               </h3>
-              <small>{node.frontmatter.date}</small>
+              <small><strong>{node.frontmatter.date}</strong></small>
             <div className="article__preview">
               <p
                 dangerouslySetInnerHTML={{

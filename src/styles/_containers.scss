@@ -12,6 +12,7 @@
 /* body container for pages */
 .main__inner {
   padding-top: 2.5em;
+  @media screen and (max-width: 659px) { padding-top: 1.25em; }
   @extend .base-container;
 }
 
@@ -25,7 +26,16 @@
   }
   grid-column-gap: 40px;
   & article {
+    & h3 { margin: 0.75em 0; }
+    &:first-of-type {
+      @media screen and (min-width: $vp-med) {
+        margin-top: 1.5em;
+      }
+    }
+    background: $dark-manilla;
     margin-bottom: 2.25em;
+    padding: 1em;
+    box-shadow: 5px 5px $gray;
   }
 }
 

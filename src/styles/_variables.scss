@@ -1,14 +1,15 @@
-$brunswick-green: #283618;
+$prim-font: 'Open Sans', sans-serif;
+$sec-font: 'Roboto', sans-serif;
+
 $vampire: #22223b;
 $clay: #ddbea9;
-$manilla: #fff1e6;
-$dark-manilla: adjust-color($manilla, $lightness: -2.5%);
+$manilla: #fff8f3;
+$dark-manilla: adjust-color($manilla, $lightness: -3.25%);
 $rusty: #bc6c25;
 
 $html: $manilla;
 $white: white;
 $prim: $clay;
-$sec: $brunswick-green;
 
 $gray: #6c757d;
 

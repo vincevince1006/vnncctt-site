@@ -8,6 +8,7 @@ const MainNav = () => {
       site {
         siteMetadata {
           menuLinks {
+            key
             name
             link
           }
@@ -22,7 +23,7 @@ const MainNav = () => {
     <nav>
       <ul>
         {menuLinks.map(x => (
-          <li>
+          <li key={x.key}>
             <Link to={x.link}>{x.name}</Link>
           </li>
         ))}
