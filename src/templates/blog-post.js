@@ -19,19 +19,15 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         description={post.frontmatter.description || post.excerpt}
       />
       <article>
-          <h3
+          <h2
             style={{
               marginBottom: 0,
             }}
           >
             {post.frontmatter.title}
-          </h3>
-          <p
-            style={{
-              display: `block`,
-            }}
-          >
-            {post.frontmatter.date}
+          </h2>
+          <p>
+            <strong>{post.frontmatter.date}</strong>
           </p>
         <section dangerouslySetInnerHTML={createMarkup()} />
         <aside class="bioBg--post">

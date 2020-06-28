@@ -21,13 +21,9 @@ const Bio = () => {
   const { author, social } = data.site.siteMetadata
 
   return (
-    <aside>
       <p>
-        All posts written by <strong>{author.name}</strong>, {author.summary}
-        {` `}
-        You should follow him <a href={`https://twitter.com/${social.twitter}`}>on Twitter.</a>
+        All posts written by <strong>{author.name}</strong> (he/him), {author.summary}&nbsp;You should follow him <a href={`https://twitter.com/${social.twitter}`} target="_blank">on Twitter.</a>
       </p>
-    </aside>
   )
 }
 export default Bio

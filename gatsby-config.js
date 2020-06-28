@@ -39,6 +39,7 @@ module.exports = {
       options: {
         path: `${__dirname}/content/assets`,
         name: `assets`,
+        ignore: [`**/\.*`],
       },
     },
     {
@@ -63,8 +64,15 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        useMozJpeg: false,
+        stripMetadata: true,
+        jpegQuality: 100,
+      }
+    },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -89,8 +97,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-            `roboto\:400,700`,
-            `open sans\:300,400,500`
+            `roboto\:400,500`,
+            `open sans\:400,500,700`
         ],
         display: 'swap'
       }
