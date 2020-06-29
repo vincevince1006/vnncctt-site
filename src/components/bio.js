@@ -22,7 +22,7 @@ const Bio = () => {
 
   return (
       <p>
-        All posts written by <strong>{author.name}</strong> (he/him), {author.summary}&nbsp;You should follow him <a href={`https://twitter.com/${social.twitter}`} target="_blank">on Twitter.</a>
+        All posts written by <strong>{author.name}</strong> (he/him), {author.summary}&nbsp;You should follow him <a href={`https://twitter.com/${social.twitter}`} target="_blank" rel="noopener noreferrer">on Twitter.</a>
       </p>
   )
 }

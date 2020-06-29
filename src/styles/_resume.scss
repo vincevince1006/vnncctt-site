@@ -12,7 +12,7 @@
   padding-left: 1em;
   color: $vampire;
     li {
-      font-size: 0.889em;
+      font-size: 0.9em;
       line-height: 1.38em;
       padding: 0.5em 0;
     }
@@ -25,7 +25,17 @@
     border-bottom: none;
   }
   .portfolioImg {
-    margin-top: 1.25em;
-    margin-bottom: 1.25em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    -webkit-box-shadow: 0px 2px 12px -5px #a3bdd4;
+    -moz-box-shadow: 0px 2px 12px -5px #a3bdd4;
+    box-shadow: 0px 2px 12px -5px #a3bdd4;
+  }
+  &__project {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    &:first-of-type {
+      margin-top: 0;
+    }
   }
 }
