@@ -1,5 +1,4 @@
 .resumeBody {
-  @media screen and (min-width: $vp-tablet) { margin-right: 4.8em; }
   h3, h4 { margin-bottom: 0; }
   h3 {
     padding-bottom: 0.35em;
@@ -9,7 +8,10 @@
   }
   ul {
   list-style: none;
-  padding-left: 1em;
+  @media screen and (min-width: $vp-tablet) {
+    padding-left: 2em;
+    padding-right: 10em;
+  }
   color: $vampire;
     li {
       font-size: 0.9em;

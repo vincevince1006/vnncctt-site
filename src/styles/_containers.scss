@@ -1,9 +1,9 @@
 .base-container {
   @media screen and (min-width: 1020px + 1) {
-    width: 45em;
+    width: 60em;
   }
   @media screen and (min-width: 850px) and (max-width: 1020px) {
-    width: 38em;
+    width: 45em;
   }
   width: 80%;
   margin: 0 auto;
@@ -17,21 +17,22 @@
 }
 
 .main__inner-articleList {
+  display: inline-flex;
+  flex-flow: wrap;
+  justify-content: flex-start;
+  @media screen and (max-width: $vp-tablet) {
+    flex-direction: column;
+  }
   & h2 {
     margin-bottom: 0.25em;
   }
-  display: grid;
-  @media screen and (min-width: $vp-tablet) {
-    grid-template-columns: 30% auto;
-  }
-  grid-column-gap: 40px;
   & article {
-    & h3 { margin: 0.75em 0; }
-    &:first-of-type {
-      @media screen and (min-width: $vp-tablet) {
-        margin-top: 1.5em;
-      }
+    width: 100%;
+    @media screen and (min-width: 815px) {
+      width: 40%;
+      margin-left: 2em;
     }
+    & h3 { margin: 0.75em 0; }
     background: $dark-manilla;
     margin-bottom: 2.25em;
     padding: 1em;

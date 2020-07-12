@@ -1,11 +1,14 @@
-.bioBg--post {
+.bio__container {
+  display: flex;
+  @media screen and (max-width: $vp-med) {
+    flex-direction: column;
+  }
+  align-items: center;
   @include box-annouce(1.5em);
 }
 
-.bioBg--index {
-  padding: 0.5em;
-  margin: 1em auto;
-  @media screen and (min-width: $vp-tablet) {
-    height: 125px;
-  }
+.bio__img {
+  border-radius: 100%;
+  min-width: 100px;
+  margin: 0.5em 1em 0.5em 0;
 }

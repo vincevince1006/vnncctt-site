@@ -11,7 +11,7 @@ const ResumeIndex = ({ data }) => {
     <Layout title={siteTitle}>
     <SEO title="Resume/CV" />
     <div className="resumeBody">
-    <h2>Resume</h2>
+    <h2>Resume</h2>    
     <h3>Industry Experience</h3>
     <h4>User Interface Designer, PTFS, Inc.</h4>
     <small>Washington, DC | February 2019 - present</small>
