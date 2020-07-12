@@ -1,7 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -12,11 +11,14 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Home" />
+      <section class="homepageIntro">
+        <h2>About Me</h2>
+        <p>My professional life has taken me from natural history museums to school districts and now, the federal government.</p>
+        <p>I work best in the civic space, collaborating with other designers and engineers who are there to make public services and it's software easier to use. My philosophy is to look at the whole user journey outside the product I'm designing, knowing that the interface is just one part of a user's  interaction.</p>
+        <p>I'm passionate about diving into the code too, and use primarily Javascript-based tools and frameworks to create products. Though in the past, I've worked with Drupal and Wordpress. Check out my Portfolio and Resume to learn more.</p>
+      </section>
+      <h2>Writing</h2>
       <section className="main__inner-articleList">
-      <aside className="bioBg--index">
-        <Bio />
-      </aside>
-      <div className="main__inner-articleList--articles">
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
@@ -37,7 +39,6 @@ const BlogIndex = ({ data, location }) => {
           </article>
         )
       })}
-      </div>
       </section>
     </Layout>
   )
