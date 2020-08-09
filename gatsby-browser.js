@@ -1,2 +1,2 @@
-import "prismjs/themes/prism.css"
+import "prismjs/themes/prism-dark.css"
 import "./src/styles/styles.scss"

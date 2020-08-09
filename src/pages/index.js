@@ -13,9 +13,17 @@ const BlogIndex = ({ data, location }) => {
       <SEO title="Home" />
       <section class="homepageIntro">
         <h2>About Me</h2>
-        <p>My professional life has taken me from natural history museums to school districts and now, the federal government.</p>
-        <p>I work best in the civic space, collaborating with other designers and engineers who are there to make public services and it's software easier to use. My philosophy is to look at the whole user journey outside the product I'm designing, knowing that the interface is just one part of a user's  interaction.</p>
-        <p>I'm passionate about diving into the code too, and use primarily Javascript-based tools and frameworks to create products. Though in the past, I've worked with Drupal and Wordpress. Check out my Portfolio and Resume to learn more.</p>
+        <div class="homepageIntro__inner">
+          <h3
+            style={{
+              fontSize: `20px`,
+              fontWeight: `300`
+            }}
+          >
+            I work in the civic space, collaborating with other designers and engineers to make public services and it's software easier to use.
+          </h3>
+          <p>I'm passionate about diving into both design and code, blending hard-won knowledge from both disciplines. Check out my <a href="/works">portfolio</a> and <a href="/resume">resume</a> to learn more.</p>
+        </div>
       </section>
       <h2>Writing</h2>
       <section className="main__inner-articleList">

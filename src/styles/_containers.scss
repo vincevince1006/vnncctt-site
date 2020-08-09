@@ -1,9 +1,9 @@
 .base-container {
   @media screen and (min-width: 1020px + 1) {
-    width: 60em;
+    width: 50em;
   }
   @media screen and (min-width: 850px) and (max-width: 1020px) {
-    width: 45em;
+    width: 42em;
   }
   width: 80%;
   margin: 0 auto;
@@ -27,7 +27,6 @@
     margin-bottom: 0.25em;
   }
   & article {
-    width: 100%;
     @media screen and (min-width: 815px) {
       width: 40%;
       margin-left: 2em;
