@@ -11,20 +11,19 @@ const ResumeIndex = ({ data }) => {
     <Layout title={siteTitle}>
     <SEO title="Resume/CV" />
     <div className="resumeBody">
-    <h2>Resume</h2>    
-    <h3>Industry Experience</h3>
-    <h4>User Interface Designer, PTFS, Inc.</h4>
+    <h2>Resume</h2>
+    <h3>User Interface Designer, PTFS, Inc.</h3>
     <small>Washington, DC | February 2019 - present</small>
       <ul>
         <li>Providing user experience design and front end development expertise for the U.S. Government Publishing Office’s govinfo.gov project.</li>
-        <li>Contributing new HTML/CSS/Javascript code to a legacy Backbone.js application and maintaining a Drupal 7-powered site.</li>
+        <li>Contributing new HTML/CSS/Javascript code to a legacy Backbone.js application, building new applications using React.js, and maintaining a Drupal 7-powered site.</li>
         <li>Creating design mockups alongside federal clients to bring their ideas for improvements from concepts to full working products.</li>
         <li>Bringing existing designs up to Section 508 compliance and ensuring all new designs are created with accessibility in mind.</li>
         <li>Building development tools using Gulp.js, developing a style guide to document designs, and writing software tests using a Javascript framework.</li>
         <li>Participating in agile/scrum processes for deploying changes to development environments. Using a Jenkins/Git continuous integration workflow to automate site and application deployments.</li>
       </ul>
 
-      <h4>Web Assistant, Howard County Public School System</h4>
+      <h3>Web Assistant, Howard County Public School System</h3>
       <small>Columbia, MD | August 2013 - February 2019</small>
       <ul>
         <li>Created HTML5/CSS3/jQuery design patterns in Wordpress to improve hcpss.org’s branding, functionality, and information architecture.</li>
@@ -36,7 +35,7 @@ const ResumeIndex = ({ data }) => {
         <li>Implemented a front-end build tool using Gulp.js, converted all hcpss.org CSS to SASS, and designed responsive email templates using Foundation.</li>
       </ul>
 
-      <h4>Web Project Assistant, The Wild Center</h4>
+      <h3>Web Project Assistant, The Wild Center</h3>
       <small>Tupper Lake, NY | May 2013 - August 2013</small>
       <ul>
         <li>Worked alongside communications director and external design firm to complete the final stages of new website launch.</li>
@@ -45,7 +44,7 @@ const ResumeIndex = ({ data }) => {
         <li>Populated new pages with content showcasing the museum's promotional, educational outreach, and membership initiatives.</li>
       </ul>
 
-      <h4>Web Intern, The Wild Center</h4>
+      <h3>Web Intern, The Wild Center</h3>
       <small>Tupper Lake, NY | January 2013 - May 2013</small>
       <ul>
         <li>Conducted an inventory and audit process for over 300 web assets in preparation for content migration to the museum’s new website.</li>

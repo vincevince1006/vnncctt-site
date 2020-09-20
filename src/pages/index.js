@@ -26,6 +26,7 @@ const BlogIndex = ({ data, location }) => {
         </div>
       </section>
       <h2>Writing</h2>
+      <p>I try to write a new article on stuff I've learned <em>at least</em> once a month.</p>
       <section className="main__inner-articleList">
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug

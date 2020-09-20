@@ -13,7 +13,7 @@ const PortfolioIndex = ({ data }) => {
     <SEO title="Portfolio" />
     <div className="portfolioBody">
       <h2>Portfolio</h2>
-      
+
       <p>A small sampling of projects I've worked on.</p>
 
       <section class="portfolioBody__project">
@@ -26,8 +26,9 @@ const PortfolioIndex = ({ data }) => {
         <p>As the sole designer on this contract, I manage the front end of a large Backbone.js application and Drupal 7 website that was built in 2016. The biggest challenge has been ensuring that new designs and code are uniform between the two environments. The project has taught me about the importance of creating design systems, digital governance, and how to build functional, reusable design components within a Javascript ecosystem.</p>
         <h4>Selected Accomplishments</h4>
         <ul>
-          <li>Creating a design language inspired by USWDS and built a living style guide</li>
+          <li>Creating reusable design components shared between a CMS and a web application</li>
           <li>Prototyping designs and implementing them into full working products</li>
+          <li>Converting older Javascript/jQuery functionality into modern React.js components</li>
           <li>Developed a visual regression testing tool using a Javascript testing framework</li>
           <li>Making improvements to existing designs based on client feedback</li>
         </ul>

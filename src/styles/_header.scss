@@ -15,7 +15,7 @@ header {
   }
   &:before {
     top: 12px;
-    transform: skew(0deg, -1.65deg);
+    @media screen and (min-width: $vp-med) { transform: skew(0deg, -1.65deg); }
     box-shadow: 0px -1px 2px #c3aa99;
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: Gulp 4 - Up and Running
-date: "2020-07-22"
+date: "2020-08-22"
 description: A quick guide on Gulp 4 (there's a lot of them out there) that hopefully makes setting it up/how it all works easier to understand.
 ---
 

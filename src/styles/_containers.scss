@@ -12,7 +12,7 @@
 /* body container for pages */
 .main__inner {
   padding-top: 2.5em;
-  @media screen and (max-width: $vp-med) { padding-top: 1.25em; }
+  @media screen and (max-width: $vp-med - 1) { padding-top: 0; }
   @extend .base-container;
 }
 
@@ -20,6 +20,7 @@
   display: inline-flex;
   flex-flow: wrap;
   justify-content: flex-start;
+  margin-top: 1em;
   @media screen and (max-width: $vp-tablet) {
     flex-direction: column;
   }
@@ -29,7 +30,7 @@
   & article {
     @media screen and (min-width: 815px) {
       width: 40%;
-      margin-left: 2em;
+      margin-right: 2em;
     }
     & h3 { margin: 0.75em 0; }
     background: $dark-manilla;

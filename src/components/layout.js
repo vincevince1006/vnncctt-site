@@ -23,7 +23,7 @@ const Layout = ({ title, children }) => {
         <div className="header__inner">
           <div>
           {header}
-          <small>User Interface Designer</small>
+          <small>UI/UX Developer</small>
           </div>
           <Nav />
         </div>
