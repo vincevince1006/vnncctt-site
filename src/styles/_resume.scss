@@ -8,8 +8,9 @@
   }
   ul {
   list-style: none;
+  padding-left: 0;
   @media screen and (min-width: $vp-tablet) {
-    padding-left: 2em;
+    padding-left: 1em;
     padding-right: 10em;
   }
   color: $vampire;
