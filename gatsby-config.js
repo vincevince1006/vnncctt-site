@@ -80,19 +80,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-sass`,
-    `gatsby-plugin-feed`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Vincent Dubay - UI Designer`,
-        short_name: `vnncctt`,
-        start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `content/assets/logo.png`
-      },
-    },
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {

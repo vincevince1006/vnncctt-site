@@ -20,7 +20,7 @@ I got started in content strategy, moved on to front-end development, honed in o
 
 I feel fortunate I got in early enough to know the pains of having a site crap out in IE, writing JS before ES6, getting DOM calls to work across browsers, and the slog of making designs work within the confines of a CMS.
 
-All the issues I've encountered always had a large enough base of people with the same problems in the past that there's never a stackoverflow question that doesn't solve my issue. This allows me to focus on the more important tasks at hand, such as satisfying client expectations and create finely tuned/accessible products.
+All the issues I've encountered always had a large enough base of people with the same problems in the past that there's always a stackoverflow question that solves my issue. This allows me to focus on the more important tasks at hand, such as satisfying client expectations and creating finely tuned/accessible web products.
 
 Still, I sometimes feel at meetups and conferences that there's a growing number of folks new to the UX industry who aren't familiar with development concerns. I feel confident as a designer because I can code, so I can preemptively recognize if something is going to not jive when translated to code and recognize the limitations of browsers/devices.
 
@@ -30,8 +30,8 @@ Yet I wonder if something is lost with the growing separation between the two di
 
 ### My own conclusion
 
-So I go back to what my mentor said, **don't box yourself in to one or the other if it's interesting to you.** I know the limits of what I can do, and enjoy having a mixture of both disciplines in my workload. In addition I think more companies are calling for hybrids as a cost saving measure but also to have that level of insight on projects.
+So I go back to what my mentor said, **don't box yourself in.** I know the limits of what I can do, and enjoy having a mixture of both disciplines in my workload. In addition I think more companies are calling for hybrids as a cost saving measure but also to have that level of insight on projects.
 
 **Is that choice at a cost to expertise in one or the other?** Not sure. Still, I've never missed a deadline or had a technical issue I couldn't fix alongside a trusty devoted engineer. Maybe that's what a hybrid is good for, being well enough at a few things and knowing who to ask for help when it's needed.
 
-It's got me this far and I can't wait to see where I go next.
+And while this has worked for me, I realize it's not for everyone.

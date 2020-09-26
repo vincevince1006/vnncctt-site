@@ -12,17 +12,12 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="Home" />
       <section class="homepageIntro">
-        <h2>About Me</h2>
+        <h2>I'm a UI/UX Developer</h2>
         <div class="homepageIntro__inner">
-          <h3
-            style={{
-              fontSize: `20px`,
-              fontWeight: `300`
-            }}
-          >
-            I work in the civic space, collaborating with other designers and engineers to make public services and it's software easier to use.
+          <h3>
+            For the past few years I've work in the civic tech sector, collaborating with other designers and engineers to make web sites and applications  easier to use.
           </h3>
-          <p>I'm passionate about diving into both design and code, blending hard-won knowledge from both disciplines. Check out my <a href="/works">portfolio</a> and <a href="/resume">resume</a> to learn more.</p>
+          <p>I'm passionate about diving into both UX design and crafting polished frontend code, blending hard-won knowledge from both disciplines. Check out my <a href="/works">portfolio</a> and <a href="/resume">resume</a> to learn more.</p>
         </div>
       </section>
       <h2>Writing</h2>
