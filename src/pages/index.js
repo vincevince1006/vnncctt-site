@@ -15,7 +15,7 @@ const BlogIndex = ({ data, location }) => {
         <h2>I'm a UI/UX Developer</h2>
         <div class="homepageIntro__inner">
           <h3>
-            For the past few years I've work in the civic tech sector, collaborating with other designers and engineers to make web sites and applications  easier to use.
+            For the past few years I've worked in the civic tech sector, collaborating with other designers and engineers to make web sites and applications  easier to use.
           </h3>
           <p>I'm passionate about diving into both UX design and crafting polished frontend code, blending hard-won knowledge from both disciplines. Check out my <a href="/works">portfolio</a> and <a href="/resume">resume</a> to learn more.</p>
         </div>
