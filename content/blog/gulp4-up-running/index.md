@@ -10,7 +10,7 @@ I use Gulp on projects that aren't complex enough to warrant a full webpack inst
 
 Here's the official documentation on [installing Gulp](https://gulpjs.com/docs/en/getting-started/quick-start/), read that and come back.
 
-I'm also writing this for OSX users, but on windows it's pretty much the same with one exception: your package.json file. I'll get to that at the end.
+I'm also writing this for OSX users, but on windows it's pretty much the same.
 
 We'll be using gulp to do a few simple tasks: compile SCSS files, minify the CSS, minify our Javascript, and watch our files for changes.  
 
