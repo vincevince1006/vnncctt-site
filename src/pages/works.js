@@ -17,20 +17,35 @@ const PortfolioIndex = ({ data }) => {
       <p>A small sampling of projects I've worked on.</p>
 
       <section class="portfolioBody__project">
-        <h3>govinfo.gov</h3>
+        <h3>govinfo.gov: main document repository</h3>
 
         <small><strong>Role:</strong> User Interface Designer | 2019 - present | <a href="https://www.govinfo.gov/" target="_blank" rel="noopener noreferrer">https://www.govinfo.gov/</a></small>
 
         <Img className="portfolioImg" fluid={data.govinfo.childImageSharp.fluid} alt="" />
 
-        <p>As the sole designer on this contract, I manage the front end of a large Backbone.js application and Drupal 7 website that was built in 2016. The biggest challenge has been ensuring that new designs and code are uniform between the two environments. The project has taught me about the importance of creating design systems, digital governance, and how to build functional, reusable design components within a Javascript ecosystem.</p>
+        <p>govinfo.gov is the official document repository for publications from Congress and various other government branches. As the sole designer on this contract, I manage the front end of a large Backbone.js application and Drupal 7 website that was built in 2016. The biggest challenge has been ensuring that new designs and code are uniform between the two environments. The project has taught me about the importance of creating design systems, digital governance, and how to build functional, reusable design components within a Javascript ecosystem.</p>
         <h4>Selected Accomplishments</h4>
         <ul>
           <li>Creating reusable design components shared between a CMS and a web application</li>
           <li>Prototyping designs and implementing them into full working products</li>
-          <li>Converting older Javascript/jQuery functionality into modern React.js components</li>
           <li>Developed a visual regression testing tool using a Javascript testing framework</li>
           <li>Making improvements to existing designs based on client feedback</li>
+        </ul>
+      </section>
+
+      <section class="portfolioBody__project">
+        <h3>govinfo.gov: curated content search</h3>
+
+        <small><strong>Role:</strong> User Interface Designer | 2019 - present | <a href="https://www.govinfo.gov/cs/" target="_blank" rel="noopener noreferrer">https://www.govinfo.gov/cs/</a></small>
+
+        <Img className="portfolioImg" fluid={data.govinfo_cs.childImageSharp.fluid} alt="" />
+
+        <p>govinfo.gov allows users to search across government documents, but there's also curated content in the form of articles, help documentation for end users, and developer documentation that weren't previously searchable. I created a working prototype for federal clients to test and critique, and then developed the front-end with React.js components. This introduced me to designing/architecting components within React.js, how to interact with a complex backend environment, and will inform design/front-end choices for future React applications.</p>
+        <h4>Selected Accomplishments</h4>
+        <ul>
+          <li>Created reusable design patterns and React.js components</li>
+          <li>Converted older Javascript/jQuery functionality into modern React.js components</li>
+          <li>Quickly learned new software design principles and launched product within a strict deadline</li>
         </ul>
       </section>
 
@@ -91,6 +106,9 @@ export const pageQuery = graphql`
       siteMetadata {
         title
       }
+    }
+    govinfo_cs: file(relativePath: { eq: "govinfo_cs.png" }) {
+      ...portfolioImage
     }
     govinfo: file(relativePath: { eq: "govinfo.png" }) {
       ...portfolioImage
