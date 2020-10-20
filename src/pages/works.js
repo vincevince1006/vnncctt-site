@@ -43,8 +43,9 @@ const PortfolioIndex = ({ data }) => {
         <p>govinfo.gov allows users to search across government documents, but there's also curated content in the form of articles, help documentation for end users, and developer documentation that weren't previously searchable. I created a working prototype for federal clients to test and critique, and then developed the front-end with React.js components. This introduced me to designing/architecting components within React.js, how to interact with a complex backend environment, and will inform design/front-end choices for future React applications.</p>
         <h4>Selected Accomplishments</h4>
         <ul>
-          <li>Created reusable design patterns and React.js components</li>
-          <li>Converted older Javascript/jQuery functionality into modern React.js components</li>
+          <li>Developed reusable design patterns and React.js components that interact with a custom search API</li>
+          <li>Created UI mockups to visualize user process for search experience</li>
+          <li>Converted older Javascript/jQuery functionality into modern React.js code</li>
           <li>Quickly learned new software design principles and launched product within a strict deadline</li>
         </ul>
       </section>
@@ -60,10 +61,10 @@ const PortfolioIndex = ({ data }) => {
         <p>I conducted interviews with the project leaders to create content types, establish user submission requirements, and mocked up what each content type would look like using Adobe Experience Designer (XD). From there I took the completed mockups and built a site from the ground up using Jekyll, a Ruby-based static site generator, and worked with staff to upload/maintain content. </p>
         <h4>Selected Accomplishments</h4>
         <ul>
-          <li>Creating a design language inspired by USWDS and built a living style guide</li>
-          <li>Prototyping designs and implementing them into full working products</li>
-          <li>Developed a visual regression testing tool using a Javascript testing framework</li>
-          <li>Making improvements to existing designs based on client feedback</li>
+          <li>Took this from content strategy to UI prototyping, and built the full working product</li>
+          <li>Collaborated with cross-departmental staff to decide which technologies to use, strategize ways to gather/manage content, and recieve feedback on designs</li>
+          <li>Used a mobile-first responsive design approach and modern CSS/design methodologies. Successes with these new methodologies informed future web products</li>
+          <li>Helped create a content publishing schedule and requirements for new site content</li>
         </ul>
       </section>
 
