@@ -23,7 +23,7 @@ header {
   display: flex;
   flex-flow: column;
   padding-top: 1.15em;
-  @media screen and (min-width: $vp-med) {
+  @media screen and (min-width: $vp-tablet) {
     justify-content: space-between;
     flex-flow: row;
   }
