@@ -6,12 +6,12 @@
     width: 42em;
   }
   width: 80%;
+  padding: 0.5em 0;
   margin: 0 auto;
 }
 
-/* body container for pages */
 .main__inner {
-  padding-top: 2.5em;
+  padding-top: 2em;
   @media screen and (max-width: $vp-tablet) { padding-top: 0; }
   @extend .base-container;
 }

@@ -2,10 +2,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 1em;
-  margin-bottom: 2em;
   @media screen and (max-width: 800px) {
-    display: inline-flex;
     flex-direction: column;
   }
   &__inner {
@@ -17,8 +14,11 @@
     min-width: 150px;
     border-radius: 100px;
     margin: 0 4em 0 1em;
-    @media screen and (max-width: 800px) {
+    @media screen and (min-width: $vp-med) and (max-width: 800px) {
       margin: 2em 0 1em 0;
+    }
+    @media screen and (max-width: $vp-med - 1) {
+      margin: 1em 0 0.5em 0;
     }
   }
 }

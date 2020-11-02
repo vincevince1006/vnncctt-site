@@ -18,12 +18,9 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
+      <div class="main__inner">
       <article>
-          <h2
-            style={{
-              marginBottom: 0,
-            }}
-          >
+          <h2 style={{ marginBottom: 0 }}>
             {post.frontmatter.title}
           </h2>
           <p>
@@ -59,6 +56,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           </li>
         </ul>
       </nav>
+      </div>
     </Layout>
   )
 }

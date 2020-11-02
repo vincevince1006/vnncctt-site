@@ -10,8 +10,13 @@ const ResumeIndex = ({ data }) => {
   return (
     <Layout title={siteTitle}>
     <SEO title="Resume/CV" />
-    <div className="resumeBody">
-    <h2>Resume</h2>
+    <div className="fancy-gradient">
+      <div className="base-container">
+        <h2>Resume</h2>
+        <p>Full resume is also available in PDF format.</p>
+      </div>
+    </div>
+    <div className="resumeBody base-container">
     <h3>User Interface Designer, PTFS, Inc.</h3>
     <small>Washington, DC | February 2019 - present</small>
       <ul>

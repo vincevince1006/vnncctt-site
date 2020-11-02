@@ -11,12 +11,14 @@ const PortfolioIndex = ({ data }) => {
   return (
     <Layout title={siteTitle}>
     <SEO title="Portfolio" />
-    <div className="portfolioBody">
-      <h2>Portfolio</h2>
-
-      <p>A small sampling of projects I've worked on.</p>
-
-      <section class="portfolioBody__project">
+      <div className="fancy-gradient">
+        <section className="base-container">
+        <h2>Portfolio</h2>
+        <p>A small sampling of projects I've worked on.</p>
+        </section>
+      </div>
+      <div className="base-container portfolioBody">
+      <section className="portfolioBody__project">
         <h3>govinfo.gov: main document repository</h3>
 
         <small><strong>Role:</strong> User Interface Designer | 2019 - present | <a href="https://www.govinfo.gov/" target="_blank" rel="noopener noreferrer">https://www.govinfo.gov/</a></small>
@@ -33,7 +35,7 @@ const PortfolioIndex = ({ data }) => {
         </ul>
       </section>
 
-      <section class="portfolioBody__project">
+      <section className="portfolioBody__project">
         <h3>govinfo.gov: curated content search</h3>
 
         <small><strong>Role:</strong> User Interface Designer | 2019 - present | <a href="https://www.govinfo.gov/cs/" target="_blank" rel="noopener noreferrer">https://www.govinfo.gov/cs/</a></small>
@@ -50,7 +52,7 @@ const PortfolioIndex = ({ data }) => {
         </ul>
       </section>
 
-      <section class="portfolioBody__project">
+      <section className="portfolioBody__project">
         <h3>HCPSS StoryStrong</h3>
 
         <small><strong>Role:</strong> Front-end Developer | 2017 | <a href="https://storystrong.hcpss.org/" target="_blank" rel="noopener noreferrer">https://storystrong.hcpss.org/</a></small>
@@ -68,7 +70,7 @@ const PortfolioIndex = ({ data }) => {
         </ul>
       </section>
 
-      <section class="portfolioBody__project">
+      <section className="portfolioBody__project">
         <h3>HCPSS Staff Directory</h3>
 
         <small><strong>Role:</strong> Front-end Developer | 2017-2018 | <a href="https://directory.hcpss.org/" target="_blank" rel="noopener noreferrer">https://directory.hcpss.org/</a></small>
