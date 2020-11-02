@@ -12,9 +12,10 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Home" />
-      <section class="homepageIntro">
+      <div className="fancy-gradient">
+      <section className="base-container homepageIntro">
         <Image className="homepageIntro__img" fixed={data.avatar.childImageSharp.fixed} />
-        <div class="homepageIntro__inner">
+        <div className="homepageIntro__inner">
         <h2>I'm a UI/UX Developer</h2>
           <h3>
             For the past few years I've worked in the civic tech sector, collaborating with other designers and engineers to make web sites and applications  easier to use.
@@ -22,7 +23,8 @@ const BlogIndex = ({ data, location }) => {
           <p><strong><a href="/works">View my portfolio &rarr;</a></strong></p>
         </div>
       </section>
-      <section class="homepageWriting">
+      </div>
+      <div className="base-container">
       <h2>Writing</h2>
       <p>Tips, tricks, and other things I've found helpful as a developer/designer.</p>
         <section className="main__inner-articleList">
@@ -47,7 +49,7 @@ const BlogIndex = ({ data, location }) => {
           )
         })}
         </section>
-      </section>
+      </div>
     </Layout>
   )
 }
