@@ -13,18 +13,18 @@ const ResumeIndex = ({ data }) => {
     <div className="fancy-gradient">
       <div className="base-container">
         <h2>Resume</h2>
-        <p>Full resume is also available in PDF format.</p>
+        <p>Full resume is also available on <a href="https://docs.google.com/document/d/19uapztoy7VH2hWbKyin_ucz0BJhnaMOup6gvD9I-57w/edit" target="_blank" rel="noreferrer">Google Drive</a></p>
       </div>
     </div>
     <div className="resumeBody base-container">
     <h3>User Interface Designer, PTFS, Inc.</h3>
     <small>Washington, DC | February 2019 - present</small>
       <ul>
-        <li>Providing user experience design and front end development expertise for the U.S. Government Publishing Office’s govinfo.gov project.</li>
-        <li>Contributing new HTML/CSS/Javascript code to a legacy Backbone.js application, building new applications using React.js, and maintaining a Drupal 7-powered site.</li>
-        <li>Creating design mockups alongside federal clients to bring their ideas for improvements from concepts to full working products.</li>
-        <li>Bringing existing designs up to Section 508 compliance and ensuring all new designs are created with accessibility in mind.</li>
-        <li>Building development tools using Gulp.js, developing a style guide to document designs, and writing software tests using a Javascript framework.</li>
+        <li>Providing UX design and front end development expertise for the U.S. Government Publishing Office’s govinfo.gov project.</li>
+        <li>Creating wireframes, user flows, and design prototypes alongside federal clients, bringing their ideas for improvements from concepts to full working products.</li>
+        <li>Contributing HTML/CSS/Javascript code to a legacy Backbone.js application, new React.js application, and Drupal 7 site.</li>
+        <li>Making existing designs Section 508 compliant and ensuring all new designs are created with accessibility in mind.</li>
+        <li>Building workflow tools using Gulp/Webpack, maintaining a UI style guide to document designs, and writing software tests using a Javascript framework.</li>
         <li>Participating in agile/scrum processes for deploying changes to development environments. Using a Jenkins/Git continuous integration workflow to automate site and application deployments.</li>
       </ul>
 

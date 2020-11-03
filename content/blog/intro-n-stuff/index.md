@@ -1,7 +1,7 @@
 ---
 title: Being a developer/designer hybrid
 date: "2020-08-18"
-description: This is a place to document my journey as a dev/designer hybrid (or UI/UX Developer, or whatever it is this week). I like living in the hybrid space because it blends my interests really well.
+description: I like living in the hybrid space because I feel like it blends my interests really well.
 ---
 
 ### What am I?

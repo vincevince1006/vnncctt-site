@@ -68,9 +68,8 @@ module.exports = {
       resolve: `gatsby-plugin-sharp`,
       options: {
         useMozJpeg: false,
-        stripMetadata: true,
-        jpegQuality: 100,
-      }
+        stripMetadata: true
+      },
     },
     `gatsby-transformer-sharp`,
     {
