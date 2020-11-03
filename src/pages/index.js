@@ -16,7 +16,7 @@ const BlogIndex = ({ data, location }) => {
       <section className="base-container homepageIntro">
         <Image className="homepageIntro__img" fixed={data.avatar.childImageSharp.fixed} />
         <div className="homepageIntro__inner">
-        <h2>I'm a UI/UX Developer</h2>
+        <h2>I'm a UI/UX Designer</h2>
           <h3>
             For the past few years I've worked in the civic tech sector, collaborating with other designers and engineers to make web sites and applications  easier to use.
           </h3>
@@ -58,7 +58,7 @@ export default BlogIndex
 
 export const pageQuery = graphql`
   query {
-    avatar: file(absolutePath: { regex: "/bio.jpg/" }) {
+    avatar: file(absolutePath: { regex: "/bio.png/" }) {
       childImageSharp {
         fixed(
           quality: 100,
