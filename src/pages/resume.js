@@ -21,7 +21,7 @@ const ResumeIndex = ({ data }) => {
     <small>Washington, DC | February 2019 - present</small>
       <ul>
         <li>Providing UX design and front end development expertise for the U.S. Government Publishing Office’s govinfo.gov project.</li>
-        <li>Creating wireframes, user flows, and design prototypes alongside federal clients, bringing their ideas for improvements from concepts to full working products.</li>
+        <li>Creating wireframes, user flows, and design prototypes while collaborating with federal clients and engineering teams.</li>
         <li>Contributing HTML/CSS/Javascript code to a legacy Backbone.js application, new React.js application, and Drupal 7 site.</li>
         <li>Making existing designs Section 508 compliant and ensuring all new designs are created with accessibility in mind.</li>
         <li>Building workflow tools using Gulp/Webpack, maintaining a UI style guide to document designs, and writing software tests using a Javascript framework.</li>
@@ -32,7 +32,7 @@ const ResumeIndex = ({ data }) => {
       <small>Columbia, MD | August 2013 - February 2019</small>
       <ul>
         <li>Created HTML5/CSS3/jQuery design patterns in Wordpress to improve hcpss.org’s branding, functionality, and information architecture.</li>
-        <li>Ensured hcpss.org’s content, PDF content, and HTML markup structures were Section 50 compliant.</li>
+        <li>Ensured hcpss.org’s content, PDF content, and HTML markup structures were Section 508 compliant.</li>
         <li>Built microsites and full sites from the wireframe process to working products, used Github pages and Adobe XD to mock up design concepts.</li>
         <li>Developed an MVC web application using the Symfony PHP framework and a MySQL database. Defined project strategy and goals, collaborated with other team members to meet objectives.</li>
         <li>Facilitated meetings with internal clients and provided recommendations on ways to enhance their web page’s content, design, and features.</li>
