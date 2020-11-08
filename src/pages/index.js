@@ -18,7 +18,7 @@ const BlogIndex = ({ data, location }) => {
         <div className="homepageIntro__inner">
         <h2>I'm a Front End Developer</h2>
           <h3>
-            For the past few years I've worked in the civic tech sector, collaborating with designers and engineers to make web sites and applications  easier to use.
+            For the past few years I've worked in the civic tech sector, collaborating with designers and engineers to make web sites and applications easier to use.
           </h3>
           <p><strong><a href="/works">View my portfolio &rarr;</a></strong></p>
         </div>
