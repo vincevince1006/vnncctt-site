@@ -4,9 +4,9 @@ date: "2020-11-08"
 description: I love the command line. It was intimidating at first but now I don't know what I did without it.
 ---
 
-I started a new job last year and it was my first time moving to a Windows environment. Believe me, I panicked. However, I knew that part of being a well rounded dev it's important to be comfortable in multiple environments. I can't feel limited by the tools I've been given to do the job.
+I started a new job last year and it was my first time moving to a Windows environment, coming from a solidly Mac/Linux background. Believe me, I panicked. However, I knew that part of being a well rounded dev it's important to be comfortable in multiple environments. I can't feel limited by the tools I've been given to do the job.
 
-Enter [Cygwin](https://www.cygwin.com/). It's like a linux/unix-y wrapper for Windows environments. It felt sort of like my Terminal, but in the same way a rental car *is* like my regular car but it's still unfamiliar.
+Enter [Cygwin](https://www.cygwin.com/). It's like a linux/unix-y wrapper for Windows environments. It felt sort of like my Terminal, but in the same way a rental car *is* like my regular car - yet it's still unfamiliar.
 
 I had to refresh my memory on commands that I used back on my old Mac so here's a few, documented and explained.
 
