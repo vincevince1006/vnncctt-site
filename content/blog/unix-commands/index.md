@@ -74,7 +74,7 @@ new-MBP:some-directory user$ history | grep "xcode"
   185  xcode-select -print-path
   187  xcode-select --install
   541  history | grep "xcode"
-new-user:~ !185
+new-MBP:some-directory user: !185
 xcode-select -print-path
 ```
 
