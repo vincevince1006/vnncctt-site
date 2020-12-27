@@ -16,7 +16,7 @@ const BlogIndex = ({ data, location }) => {
       <section className="base-container homepageIntro">
         <Image className="homepageIntro__img" fixed={data.avatar.childImageSharp.fixed} />
         <div className="homepageIntro__inner">
-        <h2>I'm a UI Developer</h2>
+        <h2>I'm a UI Designer</h2>
           <h3>
             For the past few years I've worked in the civic tech sector, collaborating with designers and engineers to make web sites and applications easier to use.
           </h3>

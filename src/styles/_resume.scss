@@ -27,6 +27,7 @@
   h3 {
     border-bottom: none;
   }
+  h4 { font-weight: bold; }
   .portfolioImg {
     margin-top: 2em;
     margin-bottom: 2em;
@@ -39,6 +40,9 @@
     margin-bottom: 3em;
     &:first-of-type {
       margin-top: 0;
+    }
+    & > p {
+      width: 80%;
     }
   }
 }
